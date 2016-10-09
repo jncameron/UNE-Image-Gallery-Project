@@ -1,0 +1,12 @@
+{% extends "gallery.html" %}
+
+
+{%block jumbo%}
+<div class=jumbotron id="title">
+<div class="container text-sm-center p-t-3">
+    <h1 class="display-3"> Uploaded by {{username}}</h1>
+</div>
+</div>
+{% endblock %}
+
+<!-- removes bottom nav from rendered tag gallery (was causing conflicts) -->

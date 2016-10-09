@@ -1,0 +1,68 @@
+#msg{
+  color: red;
+}
+#title{
+  background-color: lightgrey;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+#sidebar{
+  background-color: lightgrey;
+}
+.jumbotron li {
+  display: inline;
+  font-size: 12px;
+}
+
+.jumbotron h4 {
+  display: inline;
+  text-align: left;
+  font-size: 12px;
+}
+.small-image{
+  width: 300px;
+  height: 160px;
+
+}
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+  overflow-x:scroll;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+#overlay img {
+  margin-top: 10%; 
+}
+
+#comments p{
+  text-align: left;
+  color: black;
+}
+#comments h3 {
+  color: lightblue;
+  font-size: 14px;
+  text-align: left;
+}
+#comments h2 {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+#submit_comment {
+  margin-bottom: 30px
+}
+#data_card{
+  background-color: white;
+}
+#about{
+  padding: 20px 20px;
+  background-color: lightblue;
+}

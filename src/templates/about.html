@@ -1,0 +1,38 @@
+{% extends "gallery.html" %}
+
+{% block title %} About {% endblock %}
+{% block jumbo %}
+<div class=jumbotron id="title">
+<div class="container text-sm-center p-t-3">
+    <h1 class="display-3">About</h1>
+</div>
+</div>
+{% endblock %}
+{% block about %}
+<div class="container p-t-2">
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6" id="about">
+      <p> A very challenging and interesting project! This was my first time
+          using flask and bootstrap so I apologize in advance for any crazy looking code
+          or illogical routes.
+      </p>
+      <p> After many, many hours putting this together (and banging my head against the wall!),
+          I conceded that it was time to get this submitted and move on to revising for the exam.
+          Here's a few things I couldn't achieve that I would really appreciate feedback on: 
+        <ul>
+          <li>Making flask check individual file sizes</li>
+          <li>Submitting comments that immediately appear on the div (my code requires reloading the overlay)</li>
+          <li>Predictive entry of username and tag</li>
+          <li>My recently uploaded gallery returns incorrect information on image click (why god why?)</li>
+        </ul>
+      </p>
+      <p> I really enjoyed putting this together. It's not pretty, but I think it works (more or less)! </p>
+      <p> Note: All images used on this site are free stock images sourced from pixabay.com</p>
+    </div>
+    <div class="col-md-3">
+    </div>
+  </div>
+</div>
+{% endblock %}
